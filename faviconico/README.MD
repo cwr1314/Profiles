@@ -1,6 +1,6 @@
-# 常用几个机场图标
+# 常用几个图标
 
-![an0na’s github stats](https://github-readme-stats.vercel.app/api?username=chaizia&show_icons=true&theme=merko)
+![](https://cdn.jsdelivr.net/gh/chaizia/mypic@6b84e67c6a9b41b6fa62bcb5421ca5e99c0490d9/2021/11/26/4db50e639a9751f36fa356887323b811.png)
 
 
 ### 几个常用机场的favicon.ico
