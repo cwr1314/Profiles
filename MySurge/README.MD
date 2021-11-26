@@ -27,17 +27,24 @@
 ## 常用模块
 1、B站去广告
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/bilibili/bilibili_plus.sgmodule
+
 2、Boxjs
 https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.surge.sgmodule
+
 3、emby vip
 https://subweb.s3.fr-par.scw.cloud/Module/embyUnlocked.sgmodule
+
 4、Sub-Store
 https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/config/Surge.sgmodule
+
 5、youtube
 https://raw.githubusercontent.com/Skyxim/Profile/main/Surge/Module/YouTube.sgmodule
+
 6、知乎
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.sgmodule
+
 7、常用
 https://raw.githubusercontent.com/chaizia/Profiles/master/MySurge/Scripts.sgmodule
+
 8、贴吧
 https://raw.githubusercontent.com/app2smile/rules/master/module/tieba.sgmodule
