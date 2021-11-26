@@ -12,9 +12,8 @@
 * 只测试自用脚本，其他大部分脚本未测试可用性.
 
 ### 特别感谢 ：
-* [@chavyleung](https://github.com/chavyleung/scripts/tree/master/rrtv) 人人视频签到，目前唯一一个手机上跑的签到脚本
 
-* [@ConnersHua](https://github.com/DivineEngine/Profiles/tree/master) 规则订阅主来源、抖音-Ads
+* [@ConnersHua](https://github.com/DivineEngine/Profiles/tree/master) 规则订阅主来源
 
 * [@Orz-3](https://github.com/Orz-3/mini) 可用图标
 
