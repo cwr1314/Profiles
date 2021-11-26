@@ -17,6 +17,8 @@
 
 * [@Orz-3](https://github.com/Orz-3/mini) 可用图标
 
+* [@boxjs](https://chavyleung.gitbook.io/boxjs/) Boxjs
+
 * [@Peng-YM](https://github.com/Peng-YM/Sub-Store/tree/master/config) Sub-Store
 
 
