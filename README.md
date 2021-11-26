@@ -1,7 +1,4 @@
-# 个人常用QuantumultX-Script
-
-![an0na’s github stats](https://github-readme-stats.vercel.app/api?username=chaizia&show_icons=true&theme=merko)
-
+# 个人常用Script
 # 别问我，什么都不懂
 ### 说明 :
 
