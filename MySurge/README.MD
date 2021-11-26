@@ -21,3 +21,5 @@
 * [@githubdulong](https://github.com/githubdulong/Script/blob/master/Surge/sgmain.sgmodule) 京东、淘宝历史价格
 
 * [@ConnersHua](https://github.com/DivineEngine/Profiles/blob/master/Surge/Module/Block/YouTubeAds.sgmodule) youtube去广告
+
+* [@Skyxim](https://github.com/Skyxim/Profile/tree/main/Surge/Module) youtube去广告
