@@ -1,0 +1,5 @@
+#数字交易平台
+host-keyword, binance, proxy
+host-suffix, gate.ac, proxy
+host-suffix, gate.tv, proxy
+host-keyword, gateio, proxy
