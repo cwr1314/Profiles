@@ -24,3 +24,4 @@
 
 * [@Orz-3](https://raw.githubusercontent.com/Orz-3/QuantumultX/master/JD_TB_price.conf) 京东、淘宝历史价格
 
+![](https://cdn.jsdelivr.net/gh/chaizia/mypic@7e0a84b162febad6de31dbf2fba6f36358454cd2/2021/11/30/d08e28de99c0e9f2c05bb2a6bc58422f.png)
