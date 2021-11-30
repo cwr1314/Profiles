@@ -48,3 +48,6 @@ https://raw.githubusercontent.com/chaizia/Profiles/master/MySurge/Scripts.sgmodu
 
 8、贴吧
 https://raw.githubusercontent.com/app2smile/rules/master/module/tieba.sgmodule
+
+
+![](https://cdn.jsdelivr.net/gh/chaizia/mypic@5072e0157e48c8e985285b28dcfe02d22db4fef6/2021/11/30/bf74a9193d48ba8f6164bf8c0f8bf975.png)
