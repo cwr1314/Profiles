@@ -16,6 +16,8 @@
 
 * [@app2smile](https://github.com/app2smile/rules) 贴吧去广告、bilibili去广告
 
+* [@Tartarus2014](https://github.com/Tartarus2014/Loon-Script) Loon懒人规则大佬
+
 * [@Orz-3](https://github.com/Orz-3/mini) 可用图标
 
 * [@Peng-YM](https://github.com/Peng-YM/Sub-Store) Sub-Store
