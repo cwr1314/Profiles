@@ -20,4 +20,8 @@
 
 * [@Peng-YM](https://github.com/Peng-YM/Sub-Store) Sub-Store
 
+* [@Hyseen](https://github.com/Hyseen/Scripts/tree/master/QuantumultX) 各种多媒体解锁检测
+
+* [@KOP-XIAO](https://github.com/KOP-XIAO/QuantumultX/tree/master/Scripts) 无需多介绍，KOP-XIAO
+
 ![](https://cdn.jsdelivr.net/gh/chaizia/mypic@a9846ed81ea178f53b43f45907fbb18d872bbc05/2021/11/30/fb47fea974b8da74d33d63a58dd57ee1.png)
