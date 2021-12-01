@@ -10,6 +10,8 @@
 
 ### 特别感谢 ：
 
+* [git.io](https://git.io/)
+
 * [@ConnersHua](https://github.com/DivineEngine/Profiles/tree/master) 规则订阅主来源
 
 * [@Orz-3](https://github.com/Orz-3/mini) 可用图标
