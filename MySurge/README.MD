@@ -31,13 +31,13 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/bil
 2、Boxjs
 https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.surge.sgmodule
 
-3、emby vip
+~~3、emby vip~~
 https://subweb.s3.fr-par.scw.cloud/Module/embyUnlocked.sgmodule
 
 4、Sub-Store
 https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/config/Surge.sgmodule
 
-5、youtube
+~~5、youtube~~
 https://raw.githubusercontent.com/Skyxim/Profile/main/Surge/Module/YouTube.sgmodule
 
 6、知乎
