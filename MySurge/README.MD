@@ -14,7 +14,7 @@
 
 * [@fishingworld](https://github.com/fishingworld/something/tree/main/NetflixSelect) Surge Panel脚本，自动切换可用的奈飞线路
 
-* [@app2smile](https://github.com/app2smile/rules) 贴吧去广告、bilibili去广告
+* [@app2smile](https://github.com/app2smile/rules) 贴吧去广告、bilibili去广告、Spotify解锁
 
 * [@githubdulong](https://github.com/githubdulong/Script/tree/master/Surge) Surge脚本和模块
 
