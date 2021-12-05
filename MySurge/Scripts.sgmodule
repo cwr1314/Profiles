@@ -2,7 +2,7 @@
 #!desc=常用淘宝、京东、美团、百度云、WPS、彩云、115、抖音、Spotify、抖音、人人视频(≤16.2.0)等脚本
 
 [MITM]
-hostname = %APPEND% www.google.cn,api.m.jd.com,trade-acs.m.taobao.com,pan.baidu.com,account.wps.cn,biz.caiyunapp.com,*.115.com,api*.amemv.com,aweme.snssdk.com,api.rr.tv,spclient.wg.spotify.com
+hostname = %APPEND% www.google.cn,api.m.jd.com,trade-acs.m.taobao.com,pan.baidu.com,account.wps.cn,biz.caiyunapp.com,*.115.com,api*.amemv.com,aweme.snssdk.com,api.rr.tv,spclient.wg.spotify.com,ios-h2.prod.ftl.netflix.com
 [Script]
 # 比价脚本 （淘宝若未加载脚本运行，得卸载重装）
 淘宝比价 = type=http-response,requires-body=1,max-size=0,pattern=^http://.+/amdc/mobileDispatch,script-path=https://service.2ti.st/QuanX/Script/jd_tb_price/main.js
@@ -26,6 +26,12 @@ http-response ^https:\/\/api\.rr\.tv\/ad\/getAll requires-body=1,script-path=htt
 http-response ^https:\/\/api\.rr\.tv\/drama\/app\/get_combined_drama_detail requires-body=1,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/rrtv.js
 # Spotify部分解锁premium 需iOS15 ,建议重新登录,音质不能设置为超高
 spotify-proto = type=http-response,pattern=^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$,requires-body=1,binary-body-mode=1,max-size=0,script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js,script-update-interval=0
+
+# > 奈飞评分
+奈飞评分 = type=http-request,pattern=^https?://ios-h2\.prod\.ftl\.netflix\.com/iosui/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js,script-update-interval=0
+奈飞评分 = type=http-response,pattern=^https?://ios-h2\.prod\.ftl\.netflix\.com/iosui/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js,script-update-interval=0
+单集评分 = type=http-response,pattern=^https?://ios-h2\.prod\.ftl\.netflix\.com/iosui/warmer/.+type=show-ath,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating_season.js,script-update-interval=0
+
 
 [URL Rewrite]
 # Redirect Google Search/Maps Service
