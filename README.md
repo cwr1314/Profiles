@@ -10,7 +10,7 @@
 
 ### 特别感谢 ：
 
-* [git.io](https://git.io/)
+* [@git.io](https://git.io/)
 
 * [@ConnersHua](https://github.com/DivineEngine/Profiles/tree/master) 规则订阅主来源
 
