@@ -24,8 +24,10 @@
 
 * [@Skyxim](https://github.com/Skyxim/Profile/tree/main/Surge/Module) youtube去广告
 
+* [@WeiRen0](https://github.com/WeiRen0/QuantumultX-weiren) B站大会员
+
 ## 常用模块
-1、B站去广告
+~~1、B站去广告~~
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/bilibili/bilibili_plus.sgmodule
 
 2、Boxjs
