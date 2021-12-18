@@ -32,4 +32,4 @@ http-response ^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/mine requires-body
 http-request ^http[s]?:\/\/((app|api)\.(\w{2,15})?\.(com|cn)).*player\.(v3|v2|v1).Play(URL|View).*$ script-path=https://raw.githubusercontent.com/WeiRen0/QuantumultX-weiren/main/blbl.js, requires-body=true, timeout=10, tag=BiliBili_解锁大会员
 
 [MITM]
-hostname = hostname = *.bilibili.*, *.biliapi.*
+hostname = *.bilibili.*, *.biliapi.*
