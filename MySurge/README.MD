@@ -24,7 +24,6 @@
 
 * [@Skyxim](https://github.com/Skyxim/Profile/tree/main/Surge/Module) youtube去广告
 
-* [@WeiRen0](https://github.com/WeiRen0/QuantumultX-weiren) B站大会员
 
 ## 常用模块
 ~~1、B站去广告~~
