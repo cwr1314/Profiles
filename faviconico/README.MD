@@ -1,6 +1,6 @@
 # 常用几个图标
 
-![](https://cdn.jsdelivr.net/gh/chaizia/mypic@6b84e67c6a9b41b6fa62bcb5421ca5e99c0490d9/2021/11/26/4db50e639a9751f36fa356887323b811.png)
+![](https://cdn.jsdelivr.net/gh/chaizia/mypic@68a6b0219b33e5e17ff65137b696732e9cad5cb1/2021/12/27/1352694baaabde70169450514256199e.png)
 
 
 ### 几个常用机场的favicon.ico
