@@ -2,16 +2,17 @@
 DOMAIN,sdk.e.qq.com
 DOMAIN,emoji.qpic.cn
 IP-CIDR,182.254.116.0/24
+DOMAIN,wspeed.qq.com
+IP-CIDR,59.36.121.252/32
+IP-CIDR,183.61.49.155/32
 # 奈飞影视等其他影视站
 DOMAIN,www.nfyingshi.com
 DOMAIN,www.91chaoqing.com
 DOMAIN-SUFFIX,gaze.run
-DOMAIN-SUFFIX,nunuyy.cc
-DOMAIN-SUFFIX,nunuyy.top
+DOMAIN-SUFFIX,nunuyy1.top
 DOMAIN-SUFFIX,chaizi.me
 DOMAIN-SUFFIX,chaizi.cc
 DOMAIN-SUFFIX,chaizi.top
 DOMAIN-SUFFIX,isha.ren
 DOMAIN-SUFFIX,cdn.jsdelivr.net
 DOMAIN,cp.v2tun.us
-
