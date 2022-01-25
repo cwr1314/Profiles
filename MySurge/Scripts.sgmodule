@@ -1,23 +1,16 @@
 #!name=Chai-Scripts
-#!desc=个人常用百度云、WPS、彩云、115、抖音(≤16.2.0)、人人视频、美团外卖、奈飞评分等脚本
+#!desc=个人常用百度云、WPS、彩云、抖音(≤16.2.0)、人人视频、美团外卖、奈飞评分等脚本
 
 [MITM]
-hostname = %APPEND% www.google.cn,pan.baidu.com,account.wps.cn,biz.caiyunapp.com,*.115.com,api*.amemv.com,aweme.snssdk.com,api.rr.tv,wmapi.meituan.com,ios-*.prod.ftl.netflix.com,ios.prod.ftl.netflix.com
+hostname = %APPEND% www.google.cn,pan.baidu.com,account.wps.cn,biz.caiyunapp.com,api*.amemv.com,aweme.snssdk.com,api.rr.tv,wmapi.meituan.com,ios-*.prod.ftl.netflix.com,ios.prod.ftl.netflix.com
 [Script]
-
 百度网盘 = type=http-response,requires-body=1,max-size=0,pattern=https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/bdcloud.js
 WPSVIP = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/account\.wps\.cn\/api\/users,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js
 彩云天气VIP = type=http-response,requires-body=1,max-size=0,pattern=https?:\/\/biz\.caiyunapp\.com\/(membership_rights|v2\/user),script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/caiyun.js
-
-115离线1 = type=http-response,requires-body=1,max-size=0,pattern=^http:\/\/115\.com\/lx.*$,script-path=https://raw.githubusercontent.com/ikanam/Surge-Scripts/master/115lx.js
-115离线2 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/webapi\.115\.com\/user\/check_sign.*$,script-path=https://raw.githubusercontent.com/ikanam/Surge-Scripts/master/115lx.js
-
 抖音去广告水印 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/aweme\.snssdk\.com\/aweme\/v[12]\/((|follow\/|nearby\/)feed|aweme\/post|hot\/search\/video\/list|mix\/aweme|aweme\/detail)\/\?,script-path=https://raw.githubusercontent.com/Choler/Surge/master/Script/douyin.js
-
 人人视频VIP1 = type=http-response,requires-body=1,max-size=0,pattern=^https:\/\/api\.rr\.tv\/user\/privilege\/list,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/rrtv.js
 人人视频VIP2 = type=http-response,requires-body=1,max-size=0,pattern=^https:\/\/api\.rr\.tv\/ad\/getAll,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/rrtv.js
 人人视频VIP3 = type=http-response,requires-body=1,max-size=0,pattern=^https:\/\/api\.rr\.tv\/drama\/app\/get_combined_drama_detail,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/rrtv.js
-
 美团外卖_开屏去广告 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/wmapi\.meituan\.com\/api\/v\d+\/loadInfo?,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.js
 京东_开屏去广告 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.js
 奈飞评分1 = type=http-request,pattern=^https?:\/\/ios(-.*)?\.prod\.ftl\.netflix\.com\/iosui\/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js
@@ -28,8 +21,6 @@ WPSVIP = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/accou
 # Redirect Google Search/Maps Service
 ^https?:\/\/(www.)?(g|google)\.cn https://www.google.com 302
 ^https?:\/\/(ditu|maps).google\.cn https://maps.google.com 302
-# 115网盘签到转为离线
-^http:\/\/115\.com\/\?ct=sign$ http://115.com/lx?taskdg=1 header
 # 抖音去开屏去广告兼无水印
 ^https?:\/\/(api.*\.amemv|aweme\.snssdk)\.com\/api\/ad\/ - reject
 ^https?:\/\/api.*\.amemv\.com\/aweme\/v\d\/(?!(comment|namek|series|shop)) https://aweme.snssdk.com/aweme/v1/ header
