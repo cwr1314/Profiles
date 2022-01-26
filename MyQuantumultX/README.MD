@@ -25,3 +25,6 @@
 * [@KOP-XIAO](https://github.com/KOP-XIAO/QuantumultX/tree/master/Scripts) 无需多介绍，KOP-XIAO
 
 ![](https://cdn.jsdelivr.net/gh/chaizia/mypic@a9846ed81ea178f53b43f45907fbb18d872bbc05/2021/11/30/fb47fea974b8da74d33d63a58dd57ee1.png)
+
+
+神机大佬测试抖音16.2去广告水印脚本，需将 dig.bdurl.net 代理
