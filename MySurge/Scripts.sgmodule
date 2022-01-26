@@ -1,5 +1,5 @@
 #!name=Chai-Scripts
-#!desc=个人常用百度云、WPS、彩云、抖音(≤16.2.0)、人人视频、美团外卖、奈飞评分等脚本
+#!desc=个人常用微信、百度云、WPS、彩云、抖音(≤16.2.0)、人人视频、美团外卖、奈飞评分等脚本
 
 [MITM]
 hostname = %APPEND% mp.weixin.qq.com,www.google.cn,pan.baidu.com,account.wps.cn,biz.caiyunapp.com,api*.amemv.com,aweme.snssdk.com,api.rr.tv,wmapi.meituan.com,api.m.jd.com,ios-*.prod.ftl.netflix.com,ios.prod.ftl.netflix.com
