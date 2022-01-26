@@ -1,6 +1,6 @@
 ### 特别感谢 ：
 
-* [@ConnersHua](https://github.com/DivineEngine/Profiles/tree/master) 规则订阅主来源、抖音-Ads[抖音16.2去广告水印脚本，需将 dig.bdurl.net 代理]
+* [@ConnersHua](https://github.com/DivineEngine/Profiles/tree/master) 规则订阅主来源、抖音-Ads【抖音16.2去广告水印脚本，需将 dig.bdurl.net 代理】
 
 * [@NobyDa](https://github.com/NobyDa/Script/tree/master) WPS VIP
 
