@@ -40,6 +40,7 @@ DOMAIN-SUFFIX,mpweekly.com,REJECT
 DOMAIN-SUFFIX,cup.com.hk,REJECT
 
 #other
+DOMAIN,wspeed.qq.com,REJECT
 DOMAIN,hm.baidu.com,REJECT
 DOMAIN-KEYWORD,php?ad,REJECT
 DOMAIN-SUFFIX,handanxinkai.com,REJECT
