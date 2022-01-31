@@ -1,8 +1,8 @@
 #!name=Chai-Scripts
-#!desc=个人常用微信公众号广告、WPSVIP、彩云VIP、抖音(≤16.2.0)去水印、人人视频VIP、美团外卖京东开屏广告、奈飞豆瓣评分等脚本
+#!desc=个人常用微信公众号广告、WPSVIP、彩云VIP、抖音(≤16.2.0)去水印、人人视频VIP、美团外卖京东开屏广告、奈飞豆瓣评分、duckduckgo搜索等脚本
 
 [MITM]
-hostname = %APPEND% mp.weixin.qq.com,www.google.cn,account.wps.cn,biz.caiyunapp.com,api*.amemv.com,aweme.snssdk.com,api.rr.tv,wmapi.meituan.com,api.m.jd.com,ios-*.prod.ftl.netflix.com,ios.prod.ftl.netflix.com
+hostname = %APPEND% mp.weixin.qq.com,www.google.cn,account.wps.cn,biz.caiyunapp.com,api*.amemv.com,aweme.snssdk.com,api.rr.tv,wmapi.meituan.com,api.m.jd.com,ios-*.prod.ftl.netflix.com,ios.prod.ftl.netflix.com,duckduckgo.com
 [Script]
 微信公众号广告 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Wechat.js
 WPSVIP = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/account\.wps\.cn\/api\/users,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js
@@ -26,3 +26,8 @@ WPSVIP = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/accou
 ^https?:\/\/api.*\.amemv\.com\/aweme\/v\d\/(?!(comment|namek|series|shop)) https://aweme.snssdk.com/aweme/v1/ header
 # 人人视频VIP
 ^https:\/\/api\.rr\.tv\/drama\/app\/get_combined_drama_detail\?(.+)quality=\w+(.+) https://api.rr.tv/drama/app/get_combined_drama_detail?(.+)quality=AI_OD(.+) 302
+# DuckDuckGo搜索
+^https:\/\/duckduckgo.com\/\?q=g\+([^&]+).+ https://github.com/search?q=$1 302
+^https:\/\/duckduckgo.com\/\?q=b\+([^&]+).+ https://www.baidu.com/s?wd=$1 302
+^https:\/\/duckduckgo.com\/\?q=f\+([^&]+).+ https://dict.youdao.com/search?q=$1 302
+^https:\/\/duckduckgo.com\/\?q=([^&]+).+ https://www.google.com/search?q=$1 302
