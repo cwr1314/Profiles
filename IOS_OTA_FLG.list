@@ -40,6 +40,8 @@ DOMAIN-SUFFIX,mpweekly.com,REJECT
 DOMAIN-SUFFIX,cup.com.hk,REJECT
 
 #other
+
+DOMAIN,stun.services.mozilla.com,REJECT
 DOMAIN,p3.pstatp.com,REJECT
 DOMAIN,wspeed.qq.com,REJECT
 DOMAIN,ccdace.hupu.com,REJECT
