@@ -1,0 +1,15 @@
+# 微信
+DOMAIN,sdk.e.qq.com
+DOMAIN,emoji.qpic.cn
+IP-CIDR,182.254.116.0/24
+# 奈飞影视等其他影视站
+DOMAIN,www.nfyingshi.com
+DOMAIN,www.91chaoqing.com
+DOMAIN-SUFFIX,gaze.run
+DOMAIN-SUFFIX,nunuyy1.top
+DOMAIN-SUFFIX,chaizi.me
+DOMAIN-SUFFIX,chaizi.cc
+DOMAIN-SUFFIX,chaizi.top
+DOMAIN-SUFFIX,isha.ren
+DOMAIN-SUFFIX,cdn.jsdelivr.net
+DOMAIN,cp.v2tun.us
