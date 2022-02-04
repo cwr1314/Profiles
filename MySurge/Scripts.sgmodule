@@ -1,8 +1,8 @@
 #!name=Chai-Scripts
-#!desc=微信公众号去广告、WPSVIP、彩云VIP、抖音(≤16.2.0)去水印、人人视频VIP、美团外卖京东去开屏广告、奈飞豆瓣评分、duckduckgo搜索…
+#!desc=微信公众号去广告、WPSVIP、彩云VIP、抖音(≤16.2.0)去水印、人人视频VIP、美团外卖京东去开屏广告、奈飞豆瓣评分、duckduckgo搜索……
 
 [MITM]
-hostname = %APPEND% mp.weixin.qq.com,www.google.cn,account.wps.cn,biz.caiyunapp.com,api*.amemv.com,aweme.snssdk.com,api.rr.tv,wmapi.meituan.com,api.m.jd.com,ios-*.prod.ftl.netflix.com,ios.prod.ftl.netflix.com,duckduckgo.com
+hostname = %APPEND% mp.weixin.qq.com,www.google.cn,account.wps.cn,biz.caiyunapp.com,api*.amemv.com,aweme.snssdk.com,*.tiktokv.com,*.musical.ly,api.rr.tv,wmapi.meituan.com,api.m.jd.com,ios-*.prod.ftl.netflix.com,ios.prod.ftl.netflix.com,duckduckgo.com
 
 [Rule]
 #> 抖音(<= 16.2.0) 
