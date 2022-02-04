@@ -25,6 +25,8 @@
 * [@Skyxim](https://github.com/Skyxim/Profile/tree/main/Surge/Module) youtube去广告
 
 * [@Hyseen](https://gist.github.com/Hyseen) 多媒体解锁检测
+
+* [@iEwha](https://github.com/iEwha/Profiles) 不用介绍，就是棒
 ## 常用模块
 ~~1、B站去广告~~
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/bilibili/bilibili_plus.sgmodule
