@@ -1,0 +1,15 @@
+#屏蔽IOS更新，来源如下再增补
+#https://j.mp/3auFuTy
+DOMAIN,mesu.apple.com
+DOMAIN,gdmf.apple.com
+DOMAIN,updates-http.cdn-apple.com
+DOMAIN,xp.apple.com
+DOMAIN,basejumper.apple.com
+DOMAIN-KEYWORD,acsegateway
+#other
+DOMAIN,stun.services.mozilla.com
+DOMAIN,p3.pstatp.com
+DOMAIN,wspeed.qq.com
+DOMAIN,ccdace.hupu.com
+DOMAIN,uop.umeng.com
+DOMAIN,hm.baidu.com
