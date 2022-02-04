@@ -1,5 +1,5 @@
 #!name=Chai-Scripts
-#!desc=个人常用微信公众号广告、WPSVIP、彩云VIP、抖音(≤16.2.0)去水印、人人视频VIP、美团外卖京东开屏广告、奈飞豆瓣评分、duckduckgo搜索等脚本
+#!desc=微信公众号去广告、WPSVIP、彩云VIP、抖音(≤16.2.0)去水印、人人视频VIP、美团外卖京东去开屏广告、奈飞豆瓣评分、duckduckgo搜索…
 
 [MITM]
 hostname = %APPEND% mp.weixin.qq.com,www.google.cn,account.wps.cn,biz.caiyunapp.com,api*.amemv.com,aweme.snssdk.com,api.rr.tv,wmapi.meituan.com,api.m.jd.com,ios-*.prod.ftl.netflix.com,ios.prod.ftl.netflix.com,duckduckgo.com
@@ -11,14 +11,14 @@ URL-REGEX,^https?:\/\/.*\.(snssdk\.com|musical\.ly|amemv\.com|byteoversea\.com|t
 URL-REGEX,^https?:\/\/x?log.*\.(snssdk\.com|musical\.ly|amemv\.com|byteoversea\.com|tiktokv\.com)\/,REJECT-DROP
 
 [URL Rewrite]
-# Redirect Google Search/Maps Service
+#> Redirect Google Search/Maps Service
 ^https?:\/\/(www.)?(g|google)\.cn https://www.google.com 302
 ^https?:\/\/(ditu|maps).google\.cn https://maps.google.com 302
-# 抖音去开屏去广告兼无水印
+#> 抖音去开屏去广告兼无水印
 ^https?:\/\/api.*\.amemv\.com\/aweme\/v\d\/(?!(comment|namek|series|shop)) https://aweme.snssdk.com/aweme/v1/ header
-# 人人视频VIP
+#> 人人视频VIP
 ^https:\/\/api\.rr\.tv\/drama\/app\/get_combined_drama_detail\?(.+)quality=\w+(.+) https://api.rr.tv/drama/app/get_combined_drama_detail?(.+)quality=AI_OD(.+) 302
-# DuckDuckGo搜索
+#> DuckDuckGo搜索
 ^https:\/\/duckduckgo.com\/\?q=g\+([^&]+).+ https://github.com/search?q=$1 302
 ^https:\/\/duckduckgo.com\/\?q=b\+([^&]+).+ https://www.baidu.com/s?wd=$1 302
 ^https:\/\/duckduckgo.com\/\?q=f\+([^&]+).+ https://dict.youdao.com/search?q=$1 302
