@@ -19,7 +19,7 @@
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/bilibili/bilibili_plus.sgmodule
 
 ~~2、Boxjs
-https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.surge.sgmodule
+https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.surge.sgmodule~~
 
 ~~3、emby vip
 https://subweb.s3.fr-par.scw.cloud/Module/embyUnlocked.sgmodule~~
