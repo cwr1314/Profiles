@@ -2,7 +2,7 @@
 DOMAIN,sdk.e.qq.com
 DOMAIN,emoji.qpic.cn
 IP-CIDR,182.254.116.0/24
-# 奈飞影视等其他影视站
+# 奈飞影视等
 DOMAIN,www.91chaoqing.com
 DOMAIN-SUFFIX,chaizi.me
 DOMAIN-SUFFIX,chaizi.cc
