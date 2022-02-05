@@ -1,4 +1,4 @@
-[![chaizi's GitHub stats](https://github-readme-stats.vercel.app/api?username=iEwha&show_icons=true&count_private=true&icon_color=008080&text_color=00AEFF&bg_color=27282200
+[![chaizi's GitHub stats](https://github-readme-stats.vercel.app/api?username=chaizia&show_icons=true&count_private=true&icon_color=008080&text_color=00AEFF&bg_color=27282200
 )](https://github.com/chaizia/Profiles)
 ## 特别感谢 ：
 
