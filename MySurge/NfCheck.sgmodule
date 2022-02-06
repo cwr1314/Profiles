@@ -5,4 +5,4 @@
 nf_check = type=generic,timeout=5,script-path=https://raw.githubusercontent.com/chaizia/Profiles/master/MySurge/NfCheck.js
 [Panel]
 #奈飞检测
-nf_check = script-name=nf_check, title="Netflix 解锁检测", content="请刷新", update-interval=86400
+nf_check = script-name=nf_check, title="𝑵𝒆𝒕𝒇𝒍𝒊𝒙 𝑼𝒏𝒍𝒐𝒄𝒌 𝑪𝒉𝒆𝒄𝒌", content="请刷新", update-interval=86400
