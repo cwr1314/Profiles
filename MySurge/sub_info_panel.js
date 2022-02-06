@@ -40,11 +40,14 @@ Sub_info = script-name=Sub_info,update-interval=86400
   if (resetDayLeft) {
     content.push(`重置：剩余${resetDayLeft}天`);
   }
+
+/*
+
   if (expire) {
     if (/^[\d.]+$/.test(expire)) expire *= 1000;
     content.push(`到期：${formatTime(expire)}`);
   }
-
+*/
   let now = new Date();
   let hour = now.getHours();
   let minutes = now.getMinutes();
