@@ -6,7 +6,7 @@ const AREA_TEST_FILM_ID = 80018499
 
 ;(async () => {
   let result = {
-    title: "𝑵𝒆𝒕𝒇𝒍𝒊𝒙 𝑪𝒉𝒆𝒄𝒌",
+    title: "Netflix Check",
     icon: "exclamationmark.arrow.triangle.2.circlepath",
 	  'icon-color':"#77428D",
     content: '检测失败，请检查网络',
@@ -16,7 +16,7 @@ const AREA_TEST_FILM_ID = 80018499
       if (code === 'Not Found') {
         return test(AREA_TEST_FILM_ID)
       }
-      result['Title'] ="𝑵𝒆𝒕𝒇𝒍𝒊𝒙 𝑪𝒉𝒆𝒄𝒌"
+      result['Title'] ="Netflix Check"
       result['icon'] = "checkmark.shield"
 	    result['icon-color'] = '#1B813E'
       //result['icon'] = params.icon1
@@ -28,7 +28,7 @@ const AREA_TEST_FILM_ID = 80018499
       if (code === 'Not Found') {
         return Promise.reject('Not Available')
       }
-      result['Title'] ="𝑵𝒆𝒕𝒇𝒍𝒊𝒙 𝑪𝒉𝒆𝒄𝒌"
+      result['Title'] ="Netflix Check"
       result['icon'] = "exclamationmark.shield"
 	    result['icon-color'] = "#EFBB24"
       //result['icon'] = params.icon2
@@ -38,7 +38,7 @@ const AREA_TEST_FILM_ID = 80018499
     })
     .catch((error) => {
       if (error === 'Not Available') {
-        result['Title'] ="𝑵𝒆𝒕𝒇𝒍𝒊𝒙 𝑪𝒉𝒆𝒄𝒌"
+        result['Title'] ="Netflix Check"
         result['icon'] = "xmark.shield"
 	      result['icon-color'] = "#CB1B45"
         //result['icon'] = params.icon3
