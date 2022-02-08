@@ -20,10 +20,10 @@ const BASE_URL = 'https://www.netflix.com/title/';
 const BASE_URL_YTB = "https://www.youtube.com/premium";
 const BASE_URL_DISNEY = 'https://www.disneyplus.com';
 // const BASE_URL_Dazn = "https://startup.core.indazn.com/misl/v5/Startup";
-const BASE_URL_Param = "https://www.paramountplus.com/"
+//const BASE_URL_Param = "https://www.paramountplus.com/"
 const FILM_ID = 81215567
-const BASE_URL_Discovery_token = "https://us1-prod-direct.discoveryplus.com/token?deviceId=d1a4a5d25212400d1e6985984604d740&realm=go&shortlived=true"
-const BASE_URL_Discovery = "https://us1-prod-direct.discoveryplus.com/users/me"
+//const BASE_URL_Discovery_token = "https://us1-prod-direct.discoveryplus.com/token?deviceId=d1a4a5d25212400d1e6985984604d740&realm=go&shortlived=true"
+//const BASE_URL_Discovery = "https://us1-prod-direct.discoveryplus.com/users/me"
 
 const link = { "media-url": "https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/img/southpark/7.png" } 
 const policy_name = "Netflix" //填入你的 netflix 策略组名
