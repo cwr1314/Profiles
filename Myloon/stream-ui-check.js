@@ -20,6 +20,7 @@ const BASE_URL = 'https://www.netflix.com/title/';
 const BASE_URL_YTB = "https://www.youtube.com/premium";
 const BASE_URL_DISNEY = 'https://www.disneyplus.com';
 const FILM_ID = 81215567
+
 const link = { "media-url": "https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/img/southpark/7.png" } 
 const policy_name = "Netflix" //填入你的 netflix 策略组名
 
@@ -38,9 +39,6 @@ const STATUS_TIMEOUT = -1
 // 检测异常
 const STATUS_ERROR = -2
 
-var inputParams = $environment.params;
-var nodeName = inputParams.node;
-
 var opts = {
     node: nodeName,
 };
@@ -58,7 +56,13 @@ let result = {
   "YouTube": '<b>YouTube: </b>检测失败，请重试� ❗️',
   "Netflix": '<b>Netflix: </b>检测失败，请重试 ❗️',
   "Disney": "<b>Disneyᐩ: </b>检测失败，请重试 ❗️",
+  //"Google": "Google 定位: 检测失败，请重试"
+
 }
+// const message = {
+//   action: "get_policy_state",
+//   content: $environment.params
+// };
 
 ;(async () => {
   testYTB()
@@ -322,4 +326,3 @@ function testYTB() {
         }
     });
 }
-
