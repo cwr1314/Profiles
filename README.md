@@ -21,7 +21,7 @@
 
 * [@Peng-YM](https://github.com/Peng-YM/Sub-Store/tree/master/config) Sub-Store
 
-* [@soffchen](https://github.com/soffchen/GeoIP2-CN) 更小巧、更实时的 中国大陆 IP 段 + GeoIP2 数据库 🇨🇳
+* [@Hackl0us](https://github.com/Hackl0us/GeoIP2-CN) 最小巧、最准确、最全面、最实用的中国大陆 GeoIP2 数据库及 IP 地址段 🇨🇳
 
 
 
