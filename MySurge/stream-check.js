@@ -54,18 +54,18 @@ async function check_youtube_premium() {
     })
   }
 
-  let youtube_check_result = 'YT：'
+  let youtube_check_result = 'YouTube：'
 
   await inner_check()
     .then((code) => {
       if (code === 'Not Available') {
-        youtube_check_result += '不支持'
+        youtube_check_result += '不支持解锁'
       } else {
-        youtube_check_result += '已解:' + code.toUpperCase()
+        youtube_check_result += '已解锁，区域：' + code.toUpperCase()
       }
     })
     .catch((error) => {
-      youtube_check_result += 'ERROR'
+      youtube_check_result += '检测失败，请刷新面板'
     })
 
   return youtube_check_result
@@ -110,14 +110,14 @@ async function check_netflix() {
     })
   }
 
-  let netflix_check_result = 'NF：'
+  let netflix_check_result = 'Netflix：'
 
   await inner_check(81215567)
     .then((code) => {
       if (code === 'Not Found') {
         return inner_check(80018499)
       }
-      netflix_check_result += '完整：' + code.toUpperCase()
+      netflix_check_result += '已完整解锁，区域：' + code.toUpperCase()
       return Promise.reject('BreakSignal')
     })
     .then((code) => {
@@ -125,7 +125,7 @@ async function check_netflix() {
         return Promise.reject('Not Available')
       }
 
-      netflix_check_result += '自制：' + code.toUpperCase()
+      netflix_check_result += '仅解锁自制剧，区域：' + code.toUpperCase()
       return Promise.reject('BreakSignal')
     })
     .catch((error) => {
@@ -133,10 +133,10 @@ async function check_netflix() {
         return
       }
       if (error === 'Not Available') {
-        netflix_check_result += '不支持'
+        netflix_check_result += '该节点不支持解锁'
         return
       }
-      netflix_check_result += 'ERROR'
+      netflix_check_result += '检测失败，请刷新面板'
     })
 
   return netflix_check_result
