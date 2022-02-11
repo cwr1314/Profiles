@@ -40,13 +40,15 @@ DOMAIN-SUFFIX,mpweekly.com,REJECT
 DOMAIN-SUFFIX,cup.com.hk,REJECT
 
 #other
-
+DOMAIN-SUFFIX,dwnews.com,REJECT
 DOMAIN,stun.services.mozilla.com,REJECT
 DOMAIN,p3.pstatp.com,REJECT
 DOMAIN,wspeed.qq.com,REJECT
 DOMAIN,ccdace.hupu.com,REJECT
 DOMAIN,uop.umeng.com,REJECT
 DOMAIN,hm.baidu.com,REJECT
+DOMAIN,ad.caiyunapp.com,REJECT
+DOMAIN,goblin.hupu.com,REJECT
 DOMAIN-KEYWORD,php?ad,REJECT
 DOMAIN-SUFFIX,handanxinkai.com,REJECT
 DOMAIN-SUFFIX,jianxinshanghai.com,REJECT
