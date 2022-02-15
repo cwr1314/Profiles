@@ -12,6 +12,7 @@
 * [@Hyseen](https://gist.github.com/Hyseen) 多媒体解锁检测
 * [@iEwha](https://github.com/iEwha/Profiles) 不用介绍，就是棒
 * [@ventusoon](https://github.com/ventusoon/ventus) 不用介绍，就是棒
+* [@Neurogram-R](https://github.com/Neurogram-R/Surge) DisneyPlus-Dualsub脚本
 
 
 ## 常用模块
