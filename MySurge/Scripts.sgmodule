@@ -1,8 +1,8 @@
 #!name=05.Scripts@柴
-#!desc=微信公众号去广告、WPSVIP、彩云VIP、抖音(≤16.2.0)去水印、人人视频VIP、美团外卖京东去开屏广告、奈飞豆瓣评分、duckduckgo搜索……
+#!desc=微信公众号去广告、彩云VIP、抖音(≤16.2.0)去水印、人人视频VIP、美团外卖京东去开屏广告、奈飞豆瓣评分、duckduckgo搜索……
 
 [MITM]
-hostname = %APPEND% mp.weixin.qq.com,www.google.cn,account.wps.cn,biz.caiyunapp.com,api*.amemv.com,aweme.snssdk.com,*.tiktokv.com,*.musical.ly,api.rr.tv,wmapi.meituan.com,api.m.jd.com,ios-*.prod.ftl.netflix.com,ios.prod.ftl.netflix.com,duckduckgo.com
+hostname = %APPEND% mp.weixin.qq.com,www.google.cn,biz.caiyunapp.com,api*.amemv.com,aweme.snssdk.com,*.tiktokv.com,*.musical.ly,api.rr.tv,wmapi.meituan.com,api.m.jd.com,ios-*.prod.ftl.netflix.com,ios.prod.ftl.netflix.com,duckduckgo.com
 
 [Rule]
 #> 抖音(<= 16.2.0) 
@@ -26,7 +26,6 @@ URL-REGEX,^https?:\/\/x?log.*\.(snssdk\.com|musical\.ly|amemv\.com|byteoversea\.
 
 [Script]
 微信公众号广告 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Wechat.js
-WPSVIP = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/account\.wps\.cn\/api\/users,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js
 彩云天气VIP = type=http-response,requires-body=1,max-size=0,pattern=https?:\/\/biz\.caiyunapp\.com\/(membership_rights|v2\/user),script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/caiyun.js
 抖音去广告水印 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/aweme\.snssdk\.com\/aweme\/v[12]\/((|follow\/|nearby\/)feed|aweme\/post|hot\/search\/video\/list|mix\/aweme|aweme\/detail)\/\?,script-path=https://raw.githubusercontent.com/Choler/Surge/master/Script/douyin.js
 人人视频VIP1 = type=http-response,requires-body=1,max-size=0,pattern=^https:\/\/api\.rr\.tv\/user\/privilege\/list,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/rrtv.js
