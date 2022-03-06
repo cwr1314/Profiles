@@ -1,18 +1,23 @@
-#屏蔽IOS更新，来源如下再增补
-#https://j.mp/3auFuTy
-DOMAIN,mesu.apple.com
-DOMAIN,gdmf.apple.com
-DOMAIN,updates-http.cdn-apple.com
-DOMAIN,xp.apple.com
-DOMAIN,basejumper.apple.com
-DOMAIN-KEYWORD,acsegateway
-#other
-DOMAIN,stun.services.mozilla.com
-DOMAIN,p3.pstatp.com
-DOMAIN,wspeed.qq.com
-DOMAIN,ccdace.hupu.com
-DOMAIN,uop.umeng.com
-DOMAIN,hm.baidu.com
-DOMAIN,ad.caiyunapp.com
-DOMAIN,goblin.hupu.com
+# > 屏蔽IOS更新 https://j.mp/3auFuTy
+DOMAIN,mesu.apple.com,REJECT-DROP
+DOMAIN,gdmf.apple.com,REJECT-DROP
+DOMAIN,updates-http.cdn-apple.com,REJECT-DROP
+DOMAIN,xp.apple.com,REJECT-DROP
+DOMAIN,basejumper.apple.com,REJECT-DROP
+DOMAIN-KEYWORD,acsegateway,REJECT-DROP
 
+# > 垃圾空链接
+IP-CIDR,36.110.144.18/32,REJECT-DROP,no-resolve
+IP-CIDR,39.165.89.140/32,REJECT-DROP,no-resolve
+IP-CIDR,183.61.49.155/32,REJECT-DROP,no-resolve
+IP-CIDR,59.36.121.252/32,REJECT-DROP,no-resolve
+
+#other
+DOMAIN,stun.services.mozilla.com,REJECT-DROP
+DOMAIN,p3.pstatp.com,REJECT-DROP
+DOMAIN,wspeed.qq.com,REJECT-DROP
+DOMAIN,ccdace.hupu.com,REJECT-DROP
+DOMAIN,uop.umeng.com,REJECT-DROP
+DOMAIN,hm.baidu.com,REJECT-DROP
+DOMAIN,ad.caiyunapp.com,REJECT-DROP
+DOMAIN,goblin.hupu.com,REJECT-DROP
