@@ -18,6 +18,5 @@ DOMAIN,p3.pstatp.com,REJECT-DROP
 DOMAIN,wspeed.qq.com,REJECT-DROP
 DOMAIN,ccdace.hupu.com,REJECT-DROP
 DOMAIN,uop.umeng.com,REJECT-DROP
-DOMAIN,hm.baidu.com,REJECT-DROP
 DOMAIN,ad.caiyunapp.com,REJECT-DROP
 DOMAIN,goblin.hupu.com,REJECT-DROP
