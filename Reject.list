@@ -20,3 +20,4 @@ DOMAIN,ccdace.hupu.com,REJECT-DROP
 DOMAIN,uop.umeng.com,REJECT-DROP
 DOMAIN,ad.caiyunapp.com,REJECT-DROP
 DOMAIN,goblin.hupu.com,REJECT-DROP
+DOMAIN,dark.hyhuo.com,REJECT-DROP
