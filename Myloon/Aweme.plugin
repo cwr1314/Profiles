@@ -9,4 +9,4 @@ URL-REGEX,^https?:\/\/x?log.*\.(snssdk\.com|musical\.ly|amemv\.com|byteoversea\.
 [URL Rewrite]
 ^https?:\/\/api.*\.amemv\.com\/aweme\/v\d\/(?!(comment|namek|series|shop)) header https://aweme.snssdk.com/aweme/v1/
 [Script]
-http-response ^https?:\/\/aweme\.snssdk\.com\/aweme\/v[12]\/((|follow\/|nearby\/)feed|aweme\/post|hot\/search\/video\/list|mix\/aweme|aweme\/detail)\/\? requires-body=1,max-size=-1,script-path=https://raw.githubusercontent.com/iEwha/Profiles/master/Script/aweme.js, requires-body=true, timeout=10, tag=抖音去水印
+http-response ^https?:\/\/aweme\.snssdk\.com\/aweme\/v[12]\/((|follow\/|nearby\/)feed|aweme\/post|hot\/search\/video\/list|mix\/aweme|aweme\/detail)\/\? requires-body=1,max-size=-1,script-path= https://raw.githubusercontent.com/chaizia/Profiles/master/MySurge/aweme.js, requires-body=true, timeout=10, tag=抖音去水印
