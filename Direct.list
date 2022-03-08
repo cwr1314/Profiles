@@ -11,7 +11,6 @@ DOMAIN,vd.l.qq.com
 DOMAIN,vi.l.qq.com
 DOMAIN,sdk.e.qq.com
 DOMAIN,emoji.qpic.cn
-IP-CIDR,182.254.116.0/24
 # > Umeng
 DOMAIN,msg.umeng.com
 DOMAIN,msg.umengcloud.com
