@@ -1,0 +1,21 @@
+# > General
+DOMAIN,app.adjust.com
+DOMAIN,bdtj.tagtic.cn
+# > Alibaba
+DOMAIN,log.mmstat.com
+DOMAIN,sycm.mmstat.com
+# > Tencent
+DOMAIN,fairplay.l.qq.com
+DOMAIN,livew.l.qq.com
+DOMAIN,vd.l.qq.com
+DOMAIN,vi.l.qq.com
+DOMAIN,sdk.e.qq.com
+DOMAIN,emoji.qpic.cn
+IP-CIDR,182.254.116.0/24
+# > Umeng
+DOMAIN,msg.umeng.com
+DOMAIN,msg.umengcloud.com
+# > other
+DOMAIN,www.91chaoqing.com
+DOMAIN-SUFFIX,chaizi.cc
+DOMAIN-SUFFIX,isha.ren
