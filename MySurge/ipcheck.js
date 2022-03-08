@@ -20,7 +20,7 @@ $httpClient.get(url, function(error, response, data){
     
   body = {
     title: "NetInfo",
-    content: `IP: ${ip} ${emoji}${country}\nISP: ${isp}`,
+    content: `IP: ${ip} @ ${emoji} ${country}`,
     icon: "link.icloud",
     'icon-color': "#1B813E"
   }
