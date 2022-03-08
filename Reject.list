@@ -13,6 +13,7 @@ IP-CIDR,183.61.49.155/32,REJECT-DROP,no-resolve
 IP-CIDR,59.36.121.252/32,REJECT-DROP,no-resolve
 
 #other
+DOMAIN,data.flurry.com,REJECT-DROP
 DOMAIN,stun.services.mozilla.com,REJECT-DROP
 DOMAIN,p3.pstatp.com,REJECT-DROP
 DOMAIN,wspeed.qq.com,REJECT-DROP
