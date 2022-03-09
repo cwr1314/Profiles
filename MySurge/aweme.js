@@ -100,6 +100,7 @@ const customVerifyNames = [
 const descNames = [
   "娱乐圈",
   "男装",
+  "西瓜视频",
   "(电视|好)剧",
   "工作室",
   "女装",
