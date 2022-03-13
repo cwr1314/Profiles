@@ -18,3 +18,5 @@ DOMAIN,msg.umengcloud.com
 DOMAIN,www.91chaoqing.com
 DOMAIN-SUFFIX,chaizi.cc
 DOMAIN-SUFFIX,isha.ren
+DOMAIN-SUFFIX,misakaf.xyz
+IP-CIDR,154.208.10.63/32,no-resolve
