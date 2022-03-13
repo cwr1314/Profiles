@@ -21,7 +21,7 @@ $httpClient.get(url, function(error, response, data){
   body = {
     title: "NetInfo",
     content: `IP: ${ip} @ ${emoji} ${country}`,
-    icon: "link.icloud",
+    icon: "waveform.path.ecg",
     'icon-color': "#1B813E"
   }
   $done(body);
