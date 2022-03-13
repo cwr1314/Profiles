@@ -1,23 +1,24 @@
+# > 强烈建议Surge直接REJECT-DROP
+# > 屏蔽HTTP3/QUIC协议
+AND,((PROTOCOL,UDP), (DEST-PORT,443))
 # > 屏蔽IOS更新 https://j.mp/3auFuTy
-DOMAIN,mesu.apple.com,REJECT-DROP
-DOMAIN,gdmf.apple.com,REJECT-DROP
-DOMAIN,updates-http.cdn-apple.com,REJECT-DROP
-DOMAIN,xp.apple.com,REJECT-DROP
-DOMAIN,basejumper.apple.com,REJECT-DROP
-DOMAIN-KEYWORD,acsegateway,REJECT-DROP
-
+DOMAIN,mesu.apple.com
+DOMAIN,gdmf.apple.com
+DOMAIN,updates-http.cdn-apple.com
+DOMAIN,xp.apple.com
+DOMAIN,basejumper.apple.com
+DOMAIN-KEYWORD,acsegateway
 # > 垃圾空链接
-IP-CIDR,36.110.144.18/32,REJECT-DROP,no-resolve
-IP-CIDR,39.165.89.140/32,REJECT-DROP,no-resolve
-IP-CIDR,183.61.49.155/32,REJECT-DROP,no-resolve
-IP-CIDR,59.36.121.252/32,REJECT-DROP,no-resolve
-
+IP-CIDR,36.110.144.18/32,no-resolve
+IP-CIDR,39.165.89.140/32,no-resolve
+IP-CIDR,183.61.49.155/32,no-resolve
+IP-CIDR,59.36.121.252/32,no-resolve
 #other
-DOMAIN,data.flurry.com,REJECT-DROP
-DOMAIN,stun.services.mozilla.com,REJECT-DROP
-DOMAIN,p3.pstatp.com,REJECT-DROP
-DOMAIN,wspeed.qq.com,REJECT-DROP
-DOMAIN,ccdace.hupu.com,REJECT-DROP
-DOMAIN,ad.caiyunapp.com,REJECT-DROP
-DOMAIN,goblin.hupu.com,REJECT-DROP
-DOMAIN,dark.hyhuo.com,REJECT-DROP
+DOMAIN,data.flurry.com
+DOMAIN,stun.services.mozilla.com
+DOMAIN,p3.pstatp.com
+DOMAIN,wspeed.qq.com
+DOMAIN,ccdace.hupu.com
+DOMAIN,ad.caiyunapp.com
+DOMAIN,goblin.hupu.com
+DOMAIN,dark.hyhuo.com
