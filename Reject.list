@@ -1,6 +1,4 @@
 # > 强烈建议Surge直接REJECT-DROP
-# > 屏蔽HTTP3/QUIC协议
-AND,((PROTOCOL,UDP), (DEST-PORT,443))
 # > 屏蔽IOS更新 https://j.mp/3auFuTy
 DOMAIN,mesu.apple.com
 DOMAIN,gdmf.apple.com
