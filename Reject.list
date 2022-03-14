@@ -23,3 +23,11 @@ DOMAIN,ccdace.hupu.com
 DOMAIN,ad.caiyunapp.com
 DOMAIN,goblin.hupu.com
 DOMAIN,dark.hyhuo.com
+IP-CIDR,112.30.235.96/32,no-resolve
+IP-CIDR,117.162.238.219/32,no-resolve
+IP-CIDR,117.162.236.178/32,no-resolve
+IP-CIDR,117.162.238.25/32,no-resolve
+IP-CIDR,hhhhhhhh/32,no-resolve
+IP-CIDR,hhhhhhhh/32,no-resolve
+IP-CIDR,hhhhhhhh/32,no-resolve
+117.162.238.25
