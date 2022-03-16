@@ -37,11 +37,10 @@ Sub_info = script-name=Sub_info,update-interval=86400
   let expire = args.expire || info.expire;
   let content = [`已用：${bytesToSize(used)} & 剩余${resetDayLeft}天`];
 
+/*
   if (resetDayLeft) {
     content.push(`重置：剩余${resetDayLeft}天`);
   }
-
-/*
 
   if (expire) {
     if (/^[\d.]+$/.test(expire)) expire *= 1000;
