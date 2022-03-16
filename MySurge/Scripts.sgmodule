@@ -2,7 +2,7 @@
 #!desc=抖音(≤16.2.0)去水印、美团外卖京东去开屏广告、duckduckgo搜索……
 
 [MITM]
-hostname = %APPEND% www.google.cn,biz.caiyunapp.com,api*.amemv.com,aweme.snssdk.com,*.tiktokv.com,*.musical.ly,wmapi.meituan.com,api.m.jd.com,duckduckgo.com
+hostname = %APPEND% www.google.cn,api*.amemv.com,aweme.snssdk.com,*.tiktokv.com,*.musical.ly,wmapi.meituan.com,api.m.jd.com,duckduckgo.com
 
 [Rule]
 #> 抖音(<= 16.2.0) 
