@@ -1,5 +1,5 @@
 #!name=05.Scripts@柴
-#!desc=彩云VIP、抖音(≤16.2.0)去水印、美团外卖京东去开屏广告、duckduckgo搜索……
+#!desc=抖音(≤16.2.0)去水印、美团外卖京东去开屏广告、duckduckgo搜索……
 
 [MITM]
 hostname = %APPEND% www.google.cn,biz.caiyunapp.com,api*.amemv.com,aweme.snssdk.com,*.tiktokv.com,*.musical.ly,wmapi.meituan.com,api.m.jd.com,duckduckgo.com
@@ -9,10 +9,8 @@ hostname = %APPEND% www.google.cn,biz.caiyunapp.com,api*.amemv.com,aweme.snssdk.
 URL-REGEX,^https?:\/\/(api.*\.amemv|aweme\.snssdk)\.com\/api\/ad\/,REJECT-DROP
 URL-REGEX,^https?:\/\/.*\.(snssdk\.com|musical\.ly|amemv\.com|byteoversea\.com|tiktokv\.com)\/(vapp\/inner_ad|log|location)\/,REJECT-DROP
 URL-REGEX,^https?:\/\/x?log.*\.(snssdk\.com|musical\.ly|amemv\.com|byteoversea\.com|tiktokv\.com)\/,REJECT-DROP
-
 #> 美团外卖开屏广告
 URL-REGEX,^https?:\/\/wmapi\.meituan\.com\/api\/v\d+\/loadInfo\?,REJECT-DROP
-
 #> 京东开屏广告
 URL-REGEX,^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start,REJECT-DROP
 
@@ -23,7 +21,6 @@ URL-REGEX,^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start,REJECT-D
 
 #> 抖音去开屏去广告兼无水印
 ^https?:\/\/api.*\.amemv\.com\/aweme\/v\d\/(?!(comment|namek|series|shop)) https://aweme.snssdk.com/aweme/v1/ header
-
 #> DuckDuckGo搜索
 ^https:\/\/duckduckgo.com\/\?q=g\+([^&]+).+ https://github.com/search?q=$1 302
 ^https:\/\/duckduckgo.com\/\?q=b\+([^&]+).+ https://www.baidu.com/s?wd=$1 302
@@ -33,7 +30,4 @@ URL-REGEX,^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start,REJECT-D
 ^https:\/\/duckduckgo.com\/\?q=([^&]+).+ https://www.google.com/search?q=$1 302
 
 [Script]
-
-彩云天气VIP = type=http-response,requires-body=1,max-size=0,pattern=https?:\/\/biz\.caiyunapp\.com\/(membership_rights|v2\/user),script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/caiyun.js
-
 抖音去广告水印 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/aweme\.snssdk\.com\/aweme\/v[12]\/((|follow\/|nearby\/)feed|aweme\/post|hot\/search\/video\/list|mix\/aweme|aweme\/detail)\/\?,script-path=https://raw.githubusercontent.com/chaizia/Profiles/master/MySurge/aweme.js
