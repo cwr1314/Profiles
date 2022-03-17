@@ -54,14 +54,14 @@ async function check_youtube_premium() {
     })
   }
 
-  let youtube_check_result = 'YouTube：'
+  let youtube_check_result = 'YT：'
 
   await inner_check()
     .then((code) => {
       if (code === 'Not Available') {
         youtube_check_result += 'Not Available'
       } else {
-        youtube_check_result += 'Premium YT ' + code.toUpperCase()
+        youtube_check_result += 'Premium ' + code.toUpperCase()
       }
     })
     .catch((error) => {
@@ -110,14 +110,14 @@ async function check_netflix() {
     })
   }
 
-  let netflix_check_result = 'Netflix：'
+  let netflix_check_result = 'NF：'
 
   await inner_check(81215567)
     .then((code) => {
       if (code === 'Not Found') {
         return inner_check(80018499)
       }
-      netflix_check_result += 'Complete NF ' + code.toUpperCase()
+      netflix_check_result += 'Complete ' + code.toUpperCase()
       return Promise.reject('BreakSignal')
     })
     .then((code) => {
@@ -125,7 +125,7 @@ async function check_netflix() {
         return Promise.reject('Not Available')
       }
 
-      netflix_check_result += 'Partial NF ' + code.toUpperCase()
+      netflix_check_result += 'Partial ' + code.toUpperCase()
       return Promise.reject('BreakSignal')
     })
     .catch((error) => {
