@@ -61,7 +61,7 @@ async function check_youtube_premium() {
       if (code === 'Not Available') {
         youtube_check_result += 'Not Available'
       } else {
-        youtube_check_result += 'Premium ' + code.toUpperCase()
+        youtube_check_result += 'Premium '/* + code.toUpperCase()*/
       }
     })
     .catch((error) => {
