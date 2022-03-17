@@ -21,7 +21,7 @@ const AREA_TEST_FILM_ID = 80018499
 	    result['icon-color'] = '#1B813E'
       //result['icon'] = params.icon1
 	    //result['icon-color'] = params.color1
-      result['content'] = 'Full access to Netflix: ' + code.toUpperCase()
+      result['content'] = 'Full access to Netflix ' + code.toUpperCase()
       return Promise.reject('BreakSignal')
     })
     .then((code) => {
@@ -33,7 +33,7 @@ const AREA_TEST_FILM_ID = 80018499
 	    result['icon-color'] = "#EFBB24"
       //result['icon'] = params.icon2
 	    //result['icon-color'] = params.color2
-      result['content'] = 'Partial access to Netflix: ' + code.toUpperCase()
+      result['content'] = 'Partial access to Netflix ' + code.toUpperCase()
       return Promise.reject('BreakSignal')
     })
     .catch((error) => {
