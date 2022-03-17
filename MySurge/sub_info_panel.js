@@ -35,7 +35,7 @@ Sub_info = script-name=Sub_info,update-interval=86400
   let used = info.download + info.upload;
   let total = info.total;
   let expire = args.expire || info.expire;
-  let content = [`Used: ${bytesToSize(used)} | Reset :${resetDayLeft}Days`];
+  let content = [`Used: ${bytesToSize(used)} | Reset: ${resetDayLeft} Days`];
 
 /*
   if (resetDayLeft) {
