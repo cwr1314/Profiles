@@ -21,7 +21,7 @@ const AREA_TEST_FILM_ID = 80018499
 	    result['icon-color'] = '#1B813E'
       //result['icon'] = params.icon1
 	    //result['icon-color'] = params.color1
-      result['content'] = '完整支持Netflix，解锁地区：' + code.toUpperCase()
+      result['content'] = 'Full access to Netflix: ' + code.toUpperCase()
       return Promise.reject('BreakSignal')
     })
     .then((code) => {
@@ -33,7 +33,7 @@ const AREA_TEST_FILM_ID = 80018499
 	    result['icon-color'] = "#EFBB24"
       //result['icon'] = params.icon2
 	    //result['icon-color'] = params.color2
-      result['content'] = '仅支持收看自制剧，收看地区：' + code.toUpperCase()
+      result['content'] = 'Partial access to Netflix: ' + code.toUpperCase()
       return Promise.reject('BreakSignal')
     })
     .catch((error) => {
@@ -43,7 +43,7 @@ const AREA_TEST_FILM_ID = 80018499
 	      result['icon-color'] = "#CB1B45"
         //result['icon'] = params.icon3
 	      //result['icon-color'] = params.color3
-        result['content'] = 'Netflix 不为此 IP 提供服务'
+        result['content'] = 'No access to Netflix'
         return
       }
     })
