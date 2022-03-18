@@ -3,13 +3,11 @@ Surge配置参考注释，感谢@asukanana,感谢@congcong.
 
 示例↓↓↓ 
 ----------------------------------------
-
 [Script]
 Sub_info = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/mieqq/mieqq/master/sub_info_panel.js,script-update-interval=0,argument=url=[URL encode 后的机场节点链接]&reset_day=1&title=AmyInfo&icon=bonjour&color=#007aff
 
 [Panel]
 Sub_info = script-name=Sub_info,update-interval=86400
-
 ----------------------------------------
 
 先将带有流量信息的节点订阅链接encode，用encode后的链接替换"url="后面的[机场节点链接]
