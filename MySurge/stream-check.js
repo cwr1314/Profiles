@@ -13,14 +13,14 @@ const REQUEST_HEADERS = {
 
 ;(async () => {
   let panel_result = {
-    title: 'Netflix | YouTube',
+    title: 'Netflix｜YouTube',
     content: '',
     icon: '4k.tv',
     'icon-color': '#0484A9',
   }
   await Promise.all([check_netflix(), check_youtube_premium()])
     .then((result) => {
-      let content = result.join(' ｜ ')
+      let content = result.join('｜')
       panel_result['content'] = content
     })
     .finally(() => {
