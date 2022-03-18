@@ -1,5 +1,9 @@
 /* via:@iEwha
 * 脚本原地址：https://github.com/iEwha/Profiles/blob/master/Surge/Scripts/stream-check.js
+*[Panel]
+*stream-checktool = script-name=stream-check, title="Stream Check", content="请刷新面板", update-interval=-1
+*[Script]
+*stream-check= type=generic, timeout=15, script-path=https://raw.githubusercontent.com/chaizia/Profiles/master/MySurge/stream-check.js
 */
 const REQUEST_HEADERS = {
   'User-Agent':
