@@ -1,9 +1,0 @@
-# NAME: 重定向
-
-[URL Rewrite]
-^https?:\/\/(ditu|maps).google\.cn https://maps.google.com 302
-^https?:\/\/(www.)?(g|google)\.cn https://www.google.com 302
-^https?:\/\/(www.)?firefox\.com\.cn\/(download\/)?$ https://www.mozilla.org/zh-CN/firefox/new/ 302
-
-[MITM]
-hostname = *.google.cn,www.firefox.com.cn
