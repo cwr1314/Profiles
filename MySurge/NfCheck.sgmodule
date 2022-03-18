@@ -6,3 +6,4 @@ nf_check = type=generic,timeout=5,script-path=https://raw.githubusercontent.com/
 [Panel]
 #奈飞检测
 nf_check = script-name=nf_check, title="Netflix Check", content="请刷新", update-interval=86400
+
