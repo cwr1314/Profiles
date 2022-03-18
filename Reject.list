@@ -11,9 +11,6 @@ IP-CIDR,36.110.144.18/32,no-resolve
 IP-CIDR,39.165.89.140/32,no-resolve
 IP-CIDR,183.61.49.155/32,no-resolve
 IP-CIDR,59.36.121.252/32,no-resolve
-# > 知乎
-IP-CIDR,118.89.204.198/32,no-resolve
-IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,no-resolve
 # > other
 DOMAIN,data.flurry.com
 DOMAIN,stun.services.mozilla.com
