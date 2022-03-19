@@ -15,9 +15,6 @@ DOMAIN,emoji.qpic.cn
 # > Umeng
 DOMAIN,msg.umeng.com
 DOMAIN,msg.umengcloud.com
-# > misakaf emby
-DOMAIN-SUFFIX,misakaf.xyz
-IP-CIDR,154.208.10.63/32,no-resolve
 # > other
 DOMAIN,www.91chaoqing.com
 DOMAIN-SUFFIX,chaizi.cc
