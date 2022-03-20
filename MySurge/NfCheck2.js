@@ -18,7 +18,7 @@ const AREA_TEST_FILM_ID = 80018499
       }
       result['Title'] ="Netflix"
       result['icon'] = "play.circle"
-	    result['icon-color'] = '#32CD32'
+	    result['icon-color'] = '#228B22'
       //result['icon'] = params.icon1
 	    //result['icon-color'] = params.color1
       result['content'] = '完整支持；解锁地区：' + code.toUpperCase()
