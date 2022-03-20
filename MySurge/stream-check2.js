@@ -13,7 +13,7 @@ const REQUEST_HEADERS = {
   }
   await Promise.all([check_netflix(), check_youtube_premium()])
     .then((result) => {
-      let content = result.join('；')
+      let content = result.join(' ；')
       panel_result['content'] = content
     })
     .finally(() => {
@@ -117,7 +117,7 @@ async function check_netflix() {
       if (code === 'Not Found') {
         return inner_check(80018499)
       }
-      netflix_check_result += '完整奈飞：' + code.toUpperCase()
+      netflix_check_result += '奈飞解锁：' + code.toUpperCase()
       return Promise.reject('BreakSignal')
     })
     .then((code) => {
@@ -125,7 +125,7 @@ async function check_netflix() {
         return Promise.reject('Not Available')
       }
 
-      netflix_check_result += '自制奈飞：' + code.toUpperCase()
+      netflix_check_result += '奈飞自制：' + code.toUpperCase()
       return Promise.reject('BreakSignal')
     })
     .catch((error) => {
