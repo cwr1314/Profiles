@@ -13,7 +13,7 @@ const REQUEST_HEADERS = {
 
 ;(async () => {
   let panel_result = {
-    title: 'Netflix｜YouTube',
+    title: 'Netflix YouTube',
     content: '',
     icon: '4k.tv',
     'icon-color': '#0484A9',
