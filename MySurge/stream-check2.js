@@ -65,7 +65,7 @@ async function check_youtube_premium() {
       }
     })
     .catch((error) => {
-      youtube_check_result += '检测失败，请刷新面板'
+      youtube_check_result += '检测失败'
     })
 
   return youtube_check_result
@@ -136,7 +136,7 @@ async function check_netflix() {
         netflix_check_result += '不支持奈飞'
         return
       }
-      netflix_check_result += '检测失败，请刷新面板'
+      netflix_check_result += '检测失败'
     })
 
   return netflix_check_result
