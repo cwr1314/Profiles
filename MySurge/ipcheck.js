@@ -19,10 +19,10 @@ $httpClient.get(url, function(error, response, data){
     let isp = jsonData.isp
     
   body = {
-    title: "NetInfo",
+    title: "𝗡𝗲𝘁𝗶𝗻𝗳𝗼",
     content: `IP: ${ip} @ ${emoji} ${country}`,
-    icon: "waveform.path.ecg",
-    'icon-color': "#1B813E"
+    icon: "bolt.circle",
+    'icon-color': "#4169E1"
   }
   $done(body);
 });
