@@ -6,9 +6,9 @@ const AREA_TEST_FILM_ID = 80018499
 
 ;(async () => {
   let result = {
-    title: "Netflix 区域解锁检测",
+    title: "Netflix",
     icon: "play.circle",
-	  'icon-color':"#32CD32",
+	  'icon-color':"#FF0000",
     content: '检测失败，请检查网络',
   }
   await test(FILM_ID)
@@ -16,9 +16,9 @@ const AREA_TEST_FILM_ID = 80018499
       if (code === 'Not Found') {
         return test(AREA_TEST_FILM_ID)
       }
-      result['Title'] ="Netflix 区域解锁检测"
-      result['icon'] = "checkmark.shield"
-	    result['icon-color'] = '#1B813E'
+      result['Title'] ="Netflix"
+      result['icon'] = "play.circle"
+	    result['icon-color'] = '#32CD32'
       //result['icon'] = params.icon1
 	    //result['icon-color'] = params.color1
       result['content'] = '完整支持；解锁地区：' + code.toUpperCase()
@@ -28,8 +28,8 @@ const AREA_TEST_FILM_ID = 80018499
       if (code === 'Not Found') {
         return Promise.reject('Not Available')
       }
-      result['Title'] ="Netflix 区域解锁检测"
-      result['icon'] = "exclamationmark.shield"
+      result['Title'] ="Netflix"
+      result['icon'] = "play.circle"
 	    result['icon-color'] = "#EFBB24"
       //result['icon'] = params.icon2
 	    //result['icon-color'] = params.color2
@@ -38,8 +38,8 @@ const AREA_TEST_FILM_ID = 80018499
     })
     .catch((error) => {
       if (error === 'Not Available') {
-        result['Title'] ="Netflix 区域解锁检测"
-        result['icon'] = "xmark.shield"
+        result['Title'] ="Netflix"
+        result['icon'] = "play.circle"
 	      result['icon-color'] = "#CB1B45"
         //result['icon'] = params.icon3
 	      //result['icon-color'] = params.color3
