@@ -59,7 +59,7 @@ async function check_youtube_premium() {
   await inner_check()
     .then((code) => {
       if (code === 'Not Available') {
-        youtube_check_result += '油管无解锁'
+        youtube_check_result += '油管未解锁'
       } else {
         youtube_check_result += '油管解锁➟' + code.toUpperCase()
       }
