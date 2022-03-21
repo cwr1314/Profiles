@@ -8,7 +8,7 @@ let args = getArgs();
   let used = info.download + info.upload;
   let total = info.total;
   let expire = args.expire || info.expire;
-  let content = [`用量：${bytesToSize(used)}；重置：${resetDayLeft}天`];
+  let content = [`用量：${bytesToSize(used)} 余${resetDayLeft}天`];
 /*
   if (resetDayLeft) {
     content.push(`重置：剩余${resetDayLeft}天`);
