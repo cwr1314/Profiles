@@ -59,9 +59,9 @@ async function check_youtube_premium() {
   await inner_check()
     .then((code) => {
       if (code === 'Not Available') {
-        youtube_check_result += '无油管解锁'
+        youtube_check_result += '油管无解锁'
       } else {
-        youtube_check_result += '油管解锁：' + code.toUpperCase()
+        youtube_check_result += '油管解锁➟' + code.toUpperCase()
       }
     })
     .catch((error) => {
@@ -117,7 +117,7 @@ async function check_netflix() {
       if (code === 'Not Found') {
         return inner_check(80018499)
       }
-      netflix_check_result += '奈飞解锁：' + code.toUpperCase()
+      netflix_check_result += '奈飞解锁➟' + code.toUpperCase()
       return Promise.reject('BreakSignal')
     })
     .then((code) => {
@@ -125,7 +125,7 @@ async function check_netflix() {
         return Promise.reject('Not Available')
       }
 
-      netflix_check_result += '奈飞自制：' + code.toUpperCase()
+      netflix_check_result += '奈飞自制➟' + code.toUpperCase()
       return Promise.reject('BreakSignal')
     })
     .catch((error) => {
@@ -133,7 +133,7 @@ async function check_netflix() {
         return
       }
       if (error === 'Not Available') {
-        netflix_check_result += '不支持奈飞'
+        netflix_check_result += '奈飞无法观看'
         return
       }
       netflix_check_result += '检测失败'
