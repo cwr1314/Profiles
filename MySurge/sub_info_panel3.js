@@ -13,7 +13,7 @@ Sub_info = type=generic,timeout=10,script-path=https://raw.githubusercontent.com
   let total = info.total;
   let proportion = used / total;
   let expire = args.expire || info.expire;
-  let content = [`流量已使用 ${toPercent(proportion)}`];
+  let content = [`已使用 ➟ ${toPercent(proportion)}`];
   $done({
     title: `${args.title}`,
     content: content.join("\n"),
