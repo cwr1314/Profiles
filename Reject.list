@@ -14,7 +14,7 @@ IP-CIDR,59.36.121.252/32,no-resolve
 # > other
 DOMAIN,data.flurry.com
 DOMAIN,stun.services.mozilla.com
-DOMAIN,p3.pstatp.com
+DOMAIN-SUFFIX,pstatp.com
 DOMAIN,wspeed.qq.com
 DOMAIN,ccdace.hupu.com
 DOMAIN,goblin.hupu.com
