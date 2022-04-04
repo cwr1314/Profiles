@@ -2,10 +2,9 @@
 #!desc=抖音(≤16.2.0)去水印、京东去开屏、Duck搜索、奈飞评分……
 
 [MITM]
-hostname = %APPEND% 192.19.0.1,www.google.cn,api*.amemv.com,aweme.snssdk.com,*.tiktokv.com,*.musical.ly,api.m.jd.com,duckduckgo.com,ios-*.prod.ftl.netflix.com,ios.prod.ftl.netflix.com
+hostname = %APPEND% www.google.cn,api*.amemv.com,aweme.snssdk.com,*.tiktokv.com,*.musical.ly,api.m.jd.com,duckduckgo.com,ios-*.prod.ftl.netflix.com,ios.prod.ftl.netflix.com
 
 [Rule]
-# > mitm增加192.19.0.1解决FaceTime个别联系人刷⚠️
 # > 屏蔽HTTP3/QUIC协议
 AND,((PROTOCOL,UDP), (DEST-PORT,443)),REJECT-NO-DROP
 # > 抖音(<= 16.2.0) 
