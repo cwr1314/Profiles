@@ -15,6 +15,7 @@ DOMAIN,emoji.qpic.cn
 # > misakaf emby
 DOMAIN-SUFFIX,misakaf.xyz
 IP-CIDR,154.208.10.63/32,no-resolve
+IP-CIDR,194.180.179.226/32,no-resolve
 # > Umeng
 DOMAIN,msg.umeng.com
 DOMAIN,msg.umengcloud.com
