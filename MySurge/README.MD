@@ -40,5 +40,5 @@ https://raw.githubusercontent.com/chaizia/Profiles/master/MySurge/Scripts.sgmodu
 https://raw.githubusercontent.com/app2smile/rules/master/module/tieba.sgmodule~~
 
 9、奈飞解锁检测
-https://raw.githubusercontent.com/chaizia/Profiles/master/MySurge/NfCheck.sgmodule
+https://raw.githubusercontent.com/chaizia/Profiles/master/MySurge/stream-check.sgmodule
 
