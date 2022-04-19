@@ -6,4 +6,4 @@ stream-check = script-name=streamcheck, title="Stream", content="请刷新面板
 
 [Script]
 
-streamcheck= type=generic, timeout=15, script-path=https://raw.githubusercontent.com/chaizia/Profiles/master/MySurge/checkSimple.js
+streamcheck= type=generic, timeout=15, script-path=https://raw.githubusercontent.com/chaizia/Profiles/master/MySurge/stream-check2.js
