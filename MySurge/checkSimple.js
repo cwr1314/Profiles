@@ -34,21 +34,21 @@ var flags = new Map([[ "AC" , "🇦🇨" ] ,["AE","🇦🇪"], [ "AF" , "🇦�
  let disney_result=""
     if (status==STATUS_COMING) {
         //console.log(1)
-        disney_result=" | D+ ✗ "+flags.get(region.toUpperCase())
+        disney_result="D+ ✗ "+flags.get(region.toUpperCase())
       } else if (status==STATUS_AVAILABLE){
         //console.log(2)
         console.log(region)
-        disney_result=" | D+ ✓ "+flags.get(region.toUpperCase())
+        disney_result="D+ ✓ "+flags.get(region.toUpperCase())
         // console.log(result["Disney"])
       } else if (status==STATUS_NOT_AVAILABLE) {
         //console.log(3)
-        disney_result=" | D+ ✗ "
+        disney_result="D+ ✗ "
       } else if (status==STATUS_TIMEOUT) {
-        disney_result=" | D+ ✗ "
+        disney_result="D+ ✗ "
       }
 result.push(disney_result)
 // console.log(result)
-        let content = result.join('、')
+        let content = result.join(' | ')
         // console.log(content)
       
      
@@ -91,7 +91,7 @@ panel_result['content'] = content
       })
     }
   
-    let youtube_check_result = ' | YT'
+    let youtube_check_result = 'YT'
   
     await inner_check()
       .then((code) => {
