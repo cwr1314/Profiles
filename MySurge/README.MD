@@ -12,6 +12,7 @@
 * [@iEwha](https://github.com/iEwha/Profiles) 不用介绍，就是棒
 * [@ventusoon](https://github.com/ventusoon/ventus) 不用介绍，就是棒
 * [@Neurogram-R](https://github.com/Neurogram-R/Surge) DisneyPlus-Dualsub脚本
+* [@mieqq](https://github.com/mieqq/mieqq) P佬
 
 
 ## 常用模块
