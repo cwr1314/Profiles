@@ -5,9 +5,9 @@
 #FlushDNS
 SurgePro_FlushDNS=script-name=SurgePro_FlushDNS,update-interval=-1
 #节点信息
-Netinfo=script-name=Netinfo,title="𝗡𝗲𝘁𝗶𝗻𝗳𝗼",content="请刷新",style=info,update-interval=-1
+Netinfo=script-name=Netinfo,title="𝗡𝗘𝗧𝗜𝗡𝗙𝗢",content="请刷新",style=info,update-interval=-1
 #奈飞油管检测
-stream-checktool=script-name=stream-check,title="𝗦𝘁𝗿𝗲𝗮𝗺",content="请刷新面板",update-interval=-1
+stream-checktool=script-name=stream-check,title="𝗦𝗧𝗥𝗘𝗔𝗠 𝗖𝗛𝗘𝗖𝗞",content="请刷新面板",update-interval=-1
 
 [Script]
 #FlushDNS
