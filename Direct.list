@@ -1,10 +1,8 @@
 # > 源自神机的Unbreak.list，仅保留自用部分。 https://is.gd/LoOv1e
 # > General
 DOMAIN,app.adjust.com
+DOMAIN,app.appsflyer.com
 DOMAIN,bdtj.tagtic.cn
-# > Alibaba
-DOMAIN,log.mmstat.com
-DOMAIN,sycm.mmstat.com
 # > Tencent
 DOMAIN,fairplay.l.qq.com
 DOMAIN,livew.l.qq.com
@@ -23,3 +21,58 @@ DOMAIN,msg.umengcloud.com
 DOMAIN,www.91chaoqing.com
 DOMAIN-SUFFIX,chaizi.cc
 DOMAIN-SUFFIX,isha.ren
+# > Surge System
+USER-AGENT *com.apple.mobileme.fmip1
+USER-AGENT *WeatherFoundation*
+USER-AGENT %E5%9C%B0%E5%9B%BE*
+USER-AGENT %E8%AE%BE%E7%BD%AE*
+USER-AGENT com.apple.geod*
+USER-AGENT com.apple.Maps
+USER-AGENT FindMyFriends*
+USER-AGENT FindMyiPhone*
+USER-AGENT FMDClient*
+USER-AGENT FMFD*
+USER-AGENT fmflocatord*
+USER-AGENT geod*
+USER-AGENT locationd*
+USER-AGENT Maps*
+DOMAIN api.smoot.apple.com
+DOMAIN captive.apple.com
+DOMAIN xp.apple.com
+DOMAIN configuration.apple.com
+DOMAIN guzzoni.apple.com
+DOMAIN smp-device-content.apple.com
+DOMAIN-SUFFIX ess.apple.com
+DOMAIN-SUFFIX push-apple.com.akadns.net
+DOMAIN-SUFFIX push.apple.com
+DOMAIN aod.itunes.apple.com
+DOMAIN mesu.apple.com
+DOMAIN api.smoot.apple.cn
+DOMAIN gs-loc.apple.com
+DOMAIN mvod.itunes.apple.com
+DOMAIN streamingaudio.itunes.apple.com
+DOMAIN-SUFFIX lcdn-locator.apple.com
+DOMAIN-SUFFIX lcdn-registration.apple.com
+DOMAIN-SUFFIX ls.apple.com
+PROCESS-NAME trustd
+# > Apple @DivineEngine @2022.2.12
+DOMAIN-SUFFIX,aaplimg.com
+DOMAIN-SUFFIX,apple.co
+DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,apple.com.cn
+DOMAIN-SUFFIX,apple-cloudkit.com
+DOMAIN-SUFFIX,apple-livephotoskit.com
+DOMAIN-SUFFIX,apple-mapkit.com
+DOMAIN-SUFFIX,applemusic.com
+DOMAIN-SUFFIX,appstore.com
+DOMAIN-SUFFIX,apzones.com
+DOMAIN-SUFFIX,cdn-apple.com
+DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,icloud.com.cn
+DOMAIN-SUFFIX,icloud-content.com
+DOMAIN-SUFFIX,me.com
+DOMAIN-SUFFIX,mzstatic.com
+DOMAIN-KEYWORD,apple.com.akadns.net
+DOMAIN-KEYWORD,apple.com.edgekey.net
+DOMAIN-KEYWORD,apple-support.akadns.net
+DOMAIN-KEYWORD,icloud.com.akadns.net
