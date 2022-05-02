@@ -29,11 +29,12 @@ Sub_info = script-name=Sub_info,update-interval=86400
   let info = await getDataInfo(args.url);
   if (!info) $done();
   let resetDayLeft = getRmainingDays(parseInt(args["reset_day"]));
-
+  
   let used = info.download + info.upload;
   let total = info.total;
   let expire = args.expire || info.expire;
-  let content = [`Used: ${bytesToSize(used)}｜Reset: ${resetDayLeft} Days`];
+  let proportion = used / total;
+  let content = [`𝐔𝐬𝐞𝐝 : ${toPercent(proportion)} | 𝐀𝐯𝐥 : ${bytesToSize(total-used)}`];
 
 /*
   if (resetDayLeft) {
@@ -52,7 +53,7 @@ Sub_info = script-name=Sub_info,update-interval=86400
   minutes = minutes > 9 ? minutes : "0" + minutes;
 
   $done({
-    title: `${args.title}`,
+    title: `${args.title} ` + `| 𝐑𝐞𝐬𝐞𝐭 : ` + `${resetDayLeft} Days`,
     content: content.join("\n"),
     icon: args.icon || "airplane.circle",
     "icon-color": args.color || "#007aff",
@@ -132,6 +133,7 @@ function bytesToSize(bytes) {
   let k = 1024;
   sizes = ["B", "KB", "MB", "GB", "TB", "PB", "EB", "ZB", "YB"];
   let i = Math.floor(Math.log(bytes) / Math.log(k));
+  if (i === 4 ) return (((bytes / Math.pow(k, i)))*1024).toFixed(2)+ " " + sizes[i-1];
   return (bytes / Math.pow(k, i)).toFixed(2) + " " + sizes[i];
 }
 
@@ -141,4 +143,9 @@ function formatTime(time) {
   let month = dateObj.getMonth() + 1;
   let day = dateObj.getDate();
   return year + "年" + month + "月" + day + "日";
+}
+
+function toPercent(proportion) {
+  const percent = Number(proportion*100).toFixed(2);
+  return percent + "%";
 }
