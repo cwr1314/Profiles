@@ -6,10 +6,10 @@ const REQUEST_HEADERS = {
 
 ;(async () => {
   let panel_result = {
-    title: '𝗦𝗧𝗥𝗘𝗔𝗠 𝗖𝗛𝗘𝗖𝗞',
+    title: '𝐒𝐭𝐫𝐞𝐚𝐦  𝐂𝐡𝐞𝐜𝐤',
     content: '',
     icon: 'play.circle',
-    'icon-color': '#00BC12',
+    'icon-color': '#007aff',
   }
   await Promise.all([check_netflix(), check_youtube_premium()])
     .then((result) => {
